@@ -108,8 +108,3 @@ We welcome contributions to Swift Forms! To contribute:
 2. Create a new branch for your feature or bugfix.
 3. Submit a pull request with a detailed description of your changes.
 
-## 📬 Contact
-
-For any questions or support, you can [contact](mailto:vlsharma713@gmail.com) me.
-
-Enjoy using **Swift Forms** to make your Google Forms experience seamless! 🚀
