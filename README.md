@@ -17,7 +17,7 @@ Swift Forms is a project that leverages machine learning to enhance the Google F
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sahilsh-dev/Swift-Forms.git
+   git clone https://github.com/Akash5746/Swift-Forms.git
    cd Swift-Forms/backend
    ```
 
