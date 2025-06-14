@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Swift Forms",
+  "description": "Fill google forms swiftly!",
+  "version": "0.1",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_icon": {
+      "32": "images/icon-32.png"
+    }
+  },
+  "permissions": ["tabs", "sidePanel", "scripting", "storage"],
+  "host_permissions": [
+    "https://docs.google.com/forms/*"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
